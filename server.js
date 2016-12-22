@@ -31,7 +31,7 @@ app.get('/', function(req, res) {
   var html = '<h1>Free Code Camp Timestamp Microservice</h1>' +
               '<p>Enter a natural language date or a unix timestamp</p>' +
               '<h3>Example Usage:</h3>' +
-              '<p>https://timestamp-ms.herokuapp.com/December 15, 2015<br />https://timestamp-ms.herokuapp.com/1450137600</p>' +
+              '<p>https://timestamp2.herokuapp.com/December 15, 2015<br />https://timestamp2.herokuapp.com/1450137600</p>' +
               '<h3>Example Output:</h3>' +
               '<p>{ "unix": 1450137600, "natural": "December 15, 2015" }</p>';
   res.send(html);
